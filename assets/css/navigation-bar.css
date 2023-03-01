@@ -1,0 +1,96 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #694640;
+}
+
+h1 {
+    /* align-self: flex-start; */
+    font-size: 3rem;
+    font-weight: 600;
+    align-self: flex-start;
+    margin-left: 10px;
+
+
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+img {
+    width: 60px;
+}
+
+.cards-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 120px;
+    /* width: 700px; */
+    background-color: #fbf7e5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border-radius: 60px; */
+    display: flex;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+a {
+    padding: 10px 15px;
+    border-radius: 50px;
+    overflow: hidden;
+    color: #694640;
+    background-color: #f0e08e;
+}
+
+
+.central-btn {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-block: 15px;
+    text-transform: uppercase;
+}
+
+.central-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
